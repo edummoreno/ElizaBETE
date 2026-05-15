@@ -3,12 +3,11 @@
 
 # In[ ]:
 
-print("ElizaBETE Project (alpha) - https://git.io/vN3nr")
+print("ElizaBETE Project") 
+print("Fork do projeto (alpha) - https://git.io/vN3nr")
 print(" ")
 print("===============")
-# print("DISCLAIMER - this code is only for educational purposes and cannot be used as a therapy of any kind. Seek professional assistance if you have any physical or emotional disorders.")
-# print(" ")
-print("AVISO - Este código e seu uso se destina apenas a objetivos educacionais e de treinamento em programação. Não pode ser usado com propósitos terapêuticos. Se você possui qualquer suspeita de desordens físicas ou emocionais, procure assistência de um profissional.")
+print("AVISO LEGAL - este código destina-se apenas a fins educativos e não pode ser utilizado como terapia de qualquer tipo. Procure ajuda profissional se tiver algum distúrbio físico ou emocional.")
 print("===============")
 print(" ")
 
