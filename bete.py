@@ -9,6 +9,7 @@ print("AVISO LEGAL - este código destina-se apenas a fins educativos e não pod
 print("===============")
 print(" ")
 
+#Dicionário
 reflexoes  = {
     "sou": "é",
     "estou": "está",
@@ -34,6 +35,7 @@ reflexoes  = {
     "você": "eu",
 }
 
+#Lista
 psicobaboseira = [
     [r'preciso (.*)',
      ["Por que você precisa {0}?",
@@ -263,31 +265,30 @@ psicobaboseira = [
 ]
 
 
-def refletir(fragment):
-    tokens = fragment.lower().split()
+def refletir(fragmento):
+    tokens = fragmento.lower().split()
     for i, token in enumerate(tokens):
-        if token in refletirions:
-            tokens[i] = refletirions[token]
+        if token in reflexoes:
+            tokens[i] = reflexoes[token]
     return ' '.join(tokens)
 
 
-def analise(statement):
-    for pattern, responses in psicobaboseira:
-        match = re.match(pattern, statement.rstrip(".!"))
+def analise(declaracao):
+    for pattern, respostas in psicobaboseira:
+        match = re.match(pattern, declaracao.rstrip(".!"))
         if match:
-            response = random.choice(responses)
-            return response.format(*[refletir(g) for g in match.groups()])
+            resposta = random.choice(respostas)
+            return resposta.format(*[refletir(g) for g in match.groups()])
 
 
 def main():
     print ("Olá. Como você está hoje?")
 
     while True:
-        statement = input("> ")
-        #statement = raw_input("> ")
-        print (analise(statement))
+        declaracao = input("> ")
+        print (analise(declaracao))
 
-        if statement == "sair":
+        if declaracao == "sair":
             break
 
 
