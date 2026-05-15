@@ -10,10 +10,10 @@ DISCLAIMER - this code is only for educational purposes and cannot be used as a 
 
 -=-
 
-Quer conversar com ElizaBETE? - https://trinket.io/embed/python/1aed52baac?outputOnly=true&runOption=run&start=result
+Você quer conversar com ElizaBETE? - https://trinket.io/embed/python/1aed52baac?outputOnly=true&runOption=run&start=result
 
-Tradução para o português brasileiro - implementação em Python do chatbot do MIT ELIZA - https://pt.wikipedia.org/wiki/ELIZA
+Tradução para português brasileiro da implementação em Python do chatbot MIT ELIZA. - https://pt.wikipedia.org/wiki/ELIZA
 
-Este exercício de programação se baseia no trabalho de Evan Dempsey -  https://www.smallsurething.com/implementing-the-famous-eliza-chatbot-in-python/
+Este exercício de programação é baseado no trabalho de Evan Dempsey. -  https://www.smallsurething.com/implementing-the-famous-eliza-chatbot-in-python/
 
-AVISO - Este código e seu uso se destina apenas a objetivos educacionais e de treinamento em programação.  Não pode ser usado com propósitos terapêuticos.  Se você possui qualquer suspeita de desordens físicas ou emocionais, procure assistência de um profissional.
+AVISO LEGAL - este código destina-se apenas a fins educativos e não pode ser utilizado como terapia de qualquer tipo. Procure ajuda profissional se tiver algum distúrbio físico ou emocional.
