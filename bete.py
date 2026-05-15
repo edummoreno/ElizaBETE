@@ -1,3 +1,6 @@
+import re
+import random
+
 print("ElizaBETE Project") 
 print("Fork do projeto (alpha) - https://git.io/vN3nr")
 print(" ")
@@ -5,10 +8,6 @@ print("===============")
 print("AVISO LEGAL - este código destina-se apenas a fins educativos e não pode ser utilizado como terapia de qualquer tipo. Procure ajuda profissional se tiver algum distúrbio físico ou emocional.")
 print("===============")
 print(" ")
-
-import re
-import random
-
 
 reflections = {
     "sou": "é",
