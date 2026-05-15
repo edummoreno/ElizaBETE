@@ -1,7 +1,7 @@
 # Projeto Didático
 
 - Refatorar para Inglês/Português colocando em português e mantendo em Inglês o que faz sentido.
-- Explorar o entendimento do ELIZA um dos primeiros chatbot de IA que se Destaca até hoje por sua simplissidade e Eficiência 
+- Explorar o entendimento do ELIZA um dos primeiros chatbot de IA que se Destaca até hoje por sua simplisidade e Eficiência 
 
 ---
 
