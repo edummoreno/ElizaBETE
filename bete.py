@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
 print("ElizaBETE Project") 
 print("Fork do projeto (alpha) - https://git.io/vN3nr")
 print(" ")
