@@ -9,7 +9,7 @@ print("AVISO LEGAL - este código destina-se apenas a fins educativos e não pod
 print("===============")
 print(" ")
 
-reflections = {
+refletirions = {
     "sou": "é",
     "estou": "está",
     "estava": "estava",
@@ -263,20 +263,20 @@ psychobabble = [
 ]
 
 
-def reflect(fragment):
+def refletir(fragment):
     tokens = fragment.lower().split()
     for i, token in enumerate(tokens):
-        if token in reflections:
-            tokens[i] = reflections[token]
+        if token in refletirions:
+            tokens[i] = refletirions[token]
     return ' '.join(tokens)
 
 
-def analyze(statement):
+def analise(statement):
     for pattern, responses in psychobabble:
         match = re.match(pattern, statement.rstrip(".!"))
         if match:
             response = random.choice(responses)
-            return response.format(*[reflect(g) for g in match.groups()])
+            return response.format(*[refletir(g) for g in match.groups()])
 
 
 def main():
@@ -285,7 +285,7 @@ def main():
     while True:
         statement = input("> ")
         #statement = raw_input("> ")
-        print (analyze(statement))
+        print (analise(statement))
 
         if statement == "sair":
             break
