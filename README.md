@@ -1,3 +1,10 @@
+# Projeto Didático
+
+- Refatorar para Inglês/Português colocando em português e mantendo em Inglês o que faz sentido.
+- Explorar o entendimento do ELIZA um dos primeiros chatbot de IA que se Destaca até hoje por sua simplissidade e Eficiência 
+
+---
+
 # ElizaBETE
 
 Do you want to chat with ElizaBETE? - https://trinket.io/embed/python/1aed52baac?outputOnly=true&runOption=run&start=result
@@ -8,7 +15,7 @@ This coding exercise is based in the work of Evan Dempsey - https://www.smallsur
 
 DISCLAIMER - this code is only for educational purposes and cannot be used as a therapy of any kind.  Seek professional assistance if you have any physical or emotional disorders.
 
--=-
+---
 
 Você quer conversar com ElizaBETE? - https://trinket.io/embed/python/1aed52baac?outputOnly=true&runOption=run&start=result
 
