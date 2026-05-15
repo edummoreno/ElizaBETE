@@ -9,7 +9,7 @@ print("AVISO LEGAL - este código destina-se apenas a fins educativos e não pod
 print("===============")
 print(" ")
 
-refletirions = {
+reflexoes  = {
     "sou": "é",
     "estou": "está",
     "estava": "estava",
@@ -34,7 +34,7 @@ refletirions = {
     "você": "eu",
 }
 
-psychobabble = [
+psicobaboseira = [
     [r'preciso (.*)',
      ["Por que você precisa {0}?",
       "Realmente ajudaria se você tivesse {0}?",
@@ -272,7 +272,7 @@ def refletir(fragment):
 
 
 def analise(statement):
-    for pattern, responses in psychobabble:
+    for pattern, responses in psicobaboseira:
         match = re.match(pattern, statement.rstrip(".!"))
         if match:
             response = random.choice(responses)
